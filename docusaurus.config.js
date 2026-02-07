@@ -46,7 +46,7 @@ const config = {
         title: 'FCP',
         items: [],
       },
-      favicon: 'logo.svg',
+      favicon: 'favicon.ico',
       footer: {
         style: 'dark',
         copyright: `Copyright © 2021-${new Date().getFullYear()} 非迅科技 版权所有`,
