@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="20" cy="20" r="12" fill="url(#logoGrad)"/>
+  <g transform="translate(20, 20)">
+    <path d="M -4 -6 L 4 -6 L 8 0 L 4 6 L -4 6 L -8 0 Z" fill="white" opacity="0.9"/>
+    <circle cx="0" cy="-10" r="1.5" fill="white" opacity="0.7"/>
+    <circle cx="10" cy="0" r="1.5" fill="white" opacity="0.7"/>
+    <circle cx="0" cy="10" r="1.5" fill="white" opacity="0.7"/>
+    <circle cx="-10" cy="0" r="1.5" fill="white" opacity="0.7"/>
+    <line x1="-4" y1="-6" x2="0" y2="-10" stroke="white" stroke-width="1" opacity="0.4"/>
+    <line x1="4" y1="-6" x2="10" y2="0" stroke="white" stroke-width="1" opacity="0.4"/>
+    <line x1="4" y1="6" x2="0" y2="10" stroke="white" stroke-width="1" opacity="0.4"/>
+    <line x1="-4" y1="6" x2="-10" y2="0" stroke="white" stroke-width="1" opacity="0.4"/>
+  </g>
+</svg>

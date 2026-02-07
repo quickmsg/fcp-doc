@@ -36,9 +36,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'FCP 文档',
+        logo: {
+          src: 'logo.svg',
+          srcDark: 'logo.svg',
+          width: 36,
+          height: 36,
+          alt: 'FCP',
+        },
+        title: 'FCP',
         items: [],
       },
+      favicon: 'logo.svg',
       footer: {
         style: 'dark',
         copyright: `Copyright © 2021-${new Date().getFullYear()} 非迅科技 版权所有`,
