@@ -20,6 +20,14 @@ export default function faviconPlugin(context) {
               href: faviconHref,
             },
           },
+          {
+            tagName: 'link',
+            attributes: {
+              rel: 'shortcut icon',
+              type: 'image/x-icon',
+              href: faviconHref,
+            },
+          },
         ],
       };
     },
