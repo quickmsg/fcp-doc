@@ -9,12 +9,14 @@ const config = {
   baseUrl: '/fcp-doc/',
   organizationName: 'quickmsg',
   projectName: 'fcp-doc',
+  baseUrlIssueBanner: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  plugins: ['./plugins/favicon-plugin.js'],
   presets: [
     [
       'classic',
@@ -37,10 +39,11 @@ const config = {
     ({
       navbar: {
         logo: {
-          src: 'logo.svg',
-          srcDark: 'logo.svg',
+          src: '/fcp-doc/logo.svg',
+          srcDark: '/fcp-doc/logo.svg',
           width: 36,
           height: 36,
+          alt: 'FCP',
         },
         title: 'FCP',
         items: [],
