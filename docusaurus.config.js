@@ -41,12 +41,10 @@ const config = {
           srcDark: 'logo.svg',
           width: 36,
           height: 36,
-          alt: 'FCP',
         },
         title: 'FCP',
         items: [],
       },
-      favicon: 'favicon.ico',
       footer: {
         style: 'dark',
         copyright: `Copyright © 2021-${new Date().getFullYear()} 非迅科技 版权所有`,
@@ -56,6 +54,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  favicon: 'favicon.ico',
 };
 
 export default config;
