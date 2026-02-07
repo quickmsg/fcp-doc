@@ -5,8 +5,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'FCP',
   tagline: 'FluxMQ Control Plane - 授权与运维控制平面',
-  url: 'https://quickmsg.github.io',
-  baseUrl: '/fcp-doc/',
+  url: 'https://fcp.doc.fluxmq.com',
+  baseUrl: '/',
   organizationName: 'quickmsg',
   projectName: 'fcp-doc',
   baseUrlIssueBanner: false,
@@ -39,8 +39,8 @@ const config = {
     ({
       navbar: {
         logo: {
-          src: '/fcp-doc/logo.svg',
-          srcDark: '/fcp-doc/logo.svg',
+          src: 'logo.svg',
+          srcDark: 'logo.svg',
           width: 36,
           height: 36,
           alt: 'FCP',
