@@ -10,12 +10,6 @@ const config = {
   organizationName: 'quickmsg',
   projectName: 'fcp-doc',
   onBrokenLinks: 'throw',
-  head: [
-    {
-      tagName: 'link',
-      attributes: { rel: 'icon', type: 'image/x-icon', href: '/fcp-doc/favicon.ico' },
-    },
-  ],
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'zh-Hans',
