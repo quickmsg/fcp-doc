@@ -39,8 +39,8 @@ const config = {
     ({
       navbar: {
         logo: {
-          src: 'logo.svg',
-          srcDark: 'logo.svg',
+          src: 'favicon.ico',
+          srcDark: 'favicon.ico',
           width: 36,
           height: 36,
           alt: 'FCP',
